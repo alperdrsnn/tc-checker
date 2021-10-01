@@ -1,0 +1,21 @@
+{
+    "name": "alperdursun/tc-checker",
+    "description": "TC Checker library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TcChecker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alper Dursun",
+            "email": "dursunalper1@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-soap": "*"
+    },
+    "minimum-stability": "dev"
+}
